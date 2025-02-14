@@ -14,10 +14,12 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Thanks from "./pages/Thanks";
+import { Analytics } from "@vercel/analytics/react";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
+      <Analytics />
       <Header />
       <Routes>
         <Route path="/" element={<Home />}></Route>
