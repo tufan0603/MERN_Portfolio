@@ -1,0 +1,113 @@
+.about
+{
+    background-color: #311E25;
+    
+    color: #fff;
+    
+  
+}
+.about-container-fluid{
+    background-image: url("../assets/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about-name
+{
+    /* position:absolute;
+    left: 30%; */
+    padding-left: 30%;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+}
+.about-name h1{
+    /* padding: 15vh 0 0 15vw; */
+    /* padding-top: 5vh;*/
+    font-size: 5rem; 
+    
+}
+
+.education-col
+{
+    color: #fff;
+    /* padding-left: 10vw; */
+    text-justify:auto;
+}
+.education-col h5{
+    color: #DB9A64;
+}
+.education-col row
+{
+    padding: 10px;
+    margin: 10px;
+}
+
+.about-me{
+    text-decoration: underline;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.cv
+{
+  color: #DB9A64 ;
+  background-color: transparent;
+  display: inline-block;
+  padding: 17px 49px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  border: 1px solid #DB9A64;
+  border-radius: 0px;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.cv:hover
+{
+  color: #fff;
+  background-color: #DB9A64;
+}
+
+.languages
+    {
+        text-decoration: underline;
+        padding-bottom: 50px;
+        text-align: center;
+        margin-top: 50px;
+    }
+ .allSkill
+    {
+       color: #fff;
+       font-size: 3rem;
+       margin-top: 50px;
+       padding-top: 50px;
+       text-align: center;
+   
+    }
+
+
+@media only screen and (min-width:200px ) and (max-width:990px) {
+    .about-name h1 {
+        /* padding: 15vh 0 0 8vw ; */
+        font-size: 2rem;
+        
+    }
+    .about-name{
+        padding-left: 5%;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .intro
+    {
+        left: 0;
+    }
+    .about-me
+    {
+        padding-top: 30px;
+    }
+    .allSkill{
+        font-size: 2rem;
+    }
+}

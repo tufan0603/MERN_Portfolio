@@ -1,0 +1,153 @@
+*
+{
+  font-family: "Baloo Paaji 2", cursive;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+.home-intro{
+    background-image: url("../assets/banner.png");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+   
+}
+.home
+{
+    background-color: #311E25;
+}
+
+.home .name
+{
+    padding: 20vh 5vh 0vh 10vw;
+    font-size: 5rem;
+    font-weight: 300;
+    color: #fff;
+}
+.animation
+{
+    font-size: 3rem;
+    color: #DB9A64;
+}
+.cursor
+{
+    font-size: 3rem;
+    color: #DB9A64;
+    z-index: 0;
+    overflow: hidden;
+    text-overflow:clip;
+}
+.view-works
+{
+  background: transparent;
+  padding: 14px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #DB9A64;
+  color: #DB9A64;
+  border-radius: 0px;
+  margin-left: 10vw;
+  margin-top: 5vh;
+}
+
+.view-works:hover
+{
+    color: #fff;
+    background-color: #DB9A64;
+}
+
+.image
+{
+    height: 400px;
+    margin-top: 15vh;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.intro
+{
+
+    padding: 7vh 10vw 7vh 10vw;
+    color: #fff;
+    text-align: justify;
+    line-height: 1.7em;
+}
+.intro h1 {
+    text-align: left;
+}
+
+
+
+
+/* progress bar  */
+
+  .progress-bar-container {
+    width: 80%;
+    margin-left: 10% ;
+    padding-top:30px;
+  }
+  
+  .progress-bar-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    
+  }
+  
+  .progress-bar-fill {
+    height: 6px;
+    background-color: #DB9A64;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+ .percentage{
+    text-align: right;
+ }
+  
+  /* ................................. */
+
+  .cv
+  {
+    color: #DB9A64 ;
+    background-color: transparent;
+    display: inline-block;
+    padding: 17px 49px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid #DB9A64;
+    border-radius: 0px;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .cv:hover
+  {
+    color: #fff;
+    background-color: #DB9A64;
+  }
+
+
+
+@media only screen and (min-width:200px ) and (max-width:990px) {
+    .home .name
+    {
+        font-size: 3rem;
+    }
+
+    .image
+    {
+        display: none;
+    }
+}

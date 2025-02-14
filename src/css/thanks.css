@@ -1,0 +1,43 @@
+.thanks
+{
+    /* padding-top: 50px;- */
+    text-align: center;
+    padding-top: 25vh;
+}
+
+.icon
+{
+    font-size: 5rem;
+    color: green;
+}
+.greetings
+{
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+.reply
+{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.goBack
+{
+    background: transparent;
+    display: inline-block;
+    padding: 18px 44px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #DB9A64;
+    text-align: center;
+    color: #DB9A64 ;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+.goBack:hover
+{
+    color: #fff;
+    background-color: #DB9A64;
+}

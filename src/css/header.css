@@ -1,0 +1,120 @@
+*{
+  font-family: "Baloo Paaji 2", cursive;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+
+.header{
+  background: none;
+  z-index: 50;
+  font-family: "Baloo Paaji 2", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+.name
+{
+  color: #DB9A64;
+  font-weight: 600;
+}
+.links , .name
+{
+  color: #DB9A64;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+.links:hover
+{
+  color: #e0c4ad;
+  text-decoration: underline;
+}
+.talk
+{
+  background: transparent;
+  padding: 14px 49px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #DB9A64;
+  color: #DB9A64;
+  border-radius: 0px;
+}
+
+.talk:hover
+{
+  color: #fff;
+  background-color: #DB9A64;
+}
+
+header
+{
+  background:#3B2930;
+  position: fixed;
+}
+
+.three-dots
+{
+  font-size: 30px;
+  color: #DB9A64 ;
+  display: none;
+}
+
+.sidebar
+{
+  background-color: #311E25;
+  position: fixed;
+  top:0px;
+  right: 0;
+  z-index: 999;
+  height: 100%;
+  width: 50%;
+}
+.sidebar-element
+{
+  display: block;
+  cursor: pointer;
+  padding:20px 0px;
+  font-size: 20px;
+  border-bottom: 2px #39272E inset;
+  text-align: center;
+}
+
+.sidebar-links
+{
+  color: #DB9A64;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.cross
+{
+  font-size: 30px;
+  color: #DB9A64 ;
+  padding: 0;
+  text-align: center;
+}
+
+@media only screen and (min-width:200px ) and (max-width:990px) {
+  .talk
+  {
+    position: fixed;
+    bottom: 80px;
+    right: 16px;
+    color: #fff;
+    background-color: #DB9A64;
+  }
+  .links
+  {
+    display: none;
+  }
+  .three-dots
+  {
+    display:block ;
+    position: fixed;
+    right: 20px;
+    top:20px;
+  }
+}

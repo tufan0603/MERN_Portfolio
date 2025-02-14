@@ -1,0 +1,28 @@
+.resume-div
+{
+    background-color: #311E25;
+    padding: 30px;
+    
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 100%;
+    text-align: center;
+    
+}
+.resume{
+    height: 1200px;
+    width: 90%;
+    /* padding: 10px; */
+}
+
+
+@media only screen and (min-width:200px ) and (max-width:990px) {
+    .resume{
+        height: 45vh;
+        width: 90%;
+    }
+    .resume-div
+    {
+        padding: 30px;
+    }
+}
