@@ -92,7 +92,11 @@ function Header() {
           </div>
 
           <div className="sidebar-element">
-            <Link to={"/"} className="sidebar-links">
+            <Link
+              to={"/"}
+              className="sidebar-links"
+              onClick={() => setSidebarVisible(false)}
+            >
               Home
             </Link>
           </div>
