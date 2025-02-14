@@ -6,7 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
-import BACKEND from "../../../admin-frontend/constrance";
+import BACKEND from "../../constrants";
 
 function Contact() {
   const navigate = useNavigate();
