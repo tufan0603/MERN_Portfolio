@@ -143,11 +143,16 @@
 @media only screen and (min-width:200px ) and (max-width:990px) {
     .home .name
     {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .image
     {
         display: none;
     }
+    .animation
+    {
+      font-size: 2rem;
+    }
+  
 }

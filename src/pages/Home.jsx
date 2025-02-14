@@ -36,7 +36,7 @@ function Home() {
             <div className="row" style={{ paddingBottom: "100px" }}>
               <div className="col-lg-8">
                 <p className="name">
-                  Hi there, I am Tufan
+                  Hi there,<span>I am Tufan</span>
                   <br />
                   <span className="animation">
                     {" "}
