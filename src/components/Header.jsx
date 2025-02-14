@@ -101,27 +101,47 @@ function Header() {
             </Link>
           </div>
           <div className="sidebar-element">
-            <Link to={"/about"} className="sidebar-links">
+            <Link
+              to={"/about"}
+              className="sidebar-links"
+              onClick={() => setSidebarVisible(false)}
+            >
               About
             </Link>
           </div>
           <div className="sidebar-element">
-            <Link to={"/projects"} className="sidebar-links">
+            <Link
+              to={"/projects"}
+              className="sidebar-links"
+              onClick={() => setSidebarVisible(false)}
+            >
               Projects
             </Link>
           </div>
           <div className="sidebar-element">
-            <Link to={"/resume"} className="sidebar-links">
+            <Link
+              to={"/resume"}
+              className="sidebar-links"
+              onClick={() => setSidebarVisible(false)}
+            >
               Resume
             </Link>
           </div>
           <div className="sidebar-element">
-            <Link to={"/linkedin"} className="sidebar-links">
+            <Link
+              to={"/linkedin"}
+              className="sidebar-links"
+              onClick={() => setSidebarVisible(false)}
+            >
               LinkedIn
             </Link>
           </div>
           <div className="sidebar-element">
-            <Link to={"/contact"} className="sidebar-links">
+            <Link
+              to={"/contact"}
+              className="sidebar-links"
+              onClick={() => setSidebarVisible(false)}
+            >
               Contact
             </Link>
           </div>
