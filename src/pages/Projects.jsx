@@ -9,6 +9,7 @@ function Projects() {
     axios
       .get(`${BACKEND}/project`)
       .then((res) => {
+        console.log(res.data);
         setProjects(res.data);
       })
       .catch((err) => {
@@ -21,7 +22,7 @@ function Projects() {
       <div className="container">
         <div className="row">
           {projects.map((project) => (
-            <div className="col-lg-3">
+            <div className="col-lg-3" key={project._id}>
               <div className="banner">
                 <img src={project.banner} alt="banner" />
               </div>
