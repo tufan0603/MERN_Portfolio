@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/Tufan_Mandal_RESUME.pdf";
+import resume from "../assets/Tufan_Mandal.pdf";
 import "../css/resume.css";
 
 function Resume() {

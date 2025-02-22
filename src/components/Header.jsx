@@ -1,11 +1,9 @@
 import { Link, Outlet } from "react-router-dom";
 import "../css/header.css";
-import Tufan_Mandal_RESUME from "../assets/Tufan_Mandal_RESUME.pdf";
 import React from "react";
 import { useState, useEffect } from "react";
 import { FaGripLines } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
-import { IoHomeOutline } from "react-icons/io5";
 
 function Header() {
   const [sidebarVisible, setSidebarVisible] = useState(false);
