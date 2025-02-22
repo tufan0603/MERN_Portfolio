@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import BACKEND from "../../constrants";
+import { Link } from "react-router-dom";
 
 function Projects() {
   const [projects, setProjects] = useState([]);
@@ -9,7 +10,6 @@ function Projects() {
     axios
       .get(`${BACKEND}/project`)
       .then((res) => {
-        console.log(res.data);
         setProjects(res.data);
       })
       .catch((err) => {
